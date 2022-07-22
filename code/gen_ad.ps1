@@ -26,7 +26,7 @@ function CreateADUser() {
     
     
     # Actually create the AD user object
-    New-ADUser -Name "$name" -GivenName $firstname -Surname $lastname -SamAccountName $samAccountName -UserPrincipalName $principalname@$Global:Domain -AccountPassword (ConertTo-SecurString $password -AsPlainText -Force) -Passthru | Enable-ADAccount 
+    New-ADUser -Name "$name" -GivenName $firstname -Surname $lastname -SamAccountName $samAccountName -UserPrincipalName $principalname@$Global:Domain -AccountPassword (ConvertTo-SecureString $password -AsPlainText -Force) -Passthru | Enable-ADAccount 
 
 
     # Add the user to its appropriate group
