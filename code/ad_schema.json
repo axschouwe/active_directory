@@ -12,7 +12,7 @@
 
         {   
             "name": "Bob Smith",
-            "password": "P@ssword789",
+            "password": "",
             "groups": [
                 "Employees"
 
@@ -21,7 +21,7 @@
         },
         {   
             "name": "johnny Appleseed",
-            "password": "P@ssword987",
+            "password": "",
             "groups": [
                 "Employees"
             ]
