@@ -1,0 +1,33 @@
+{   "domain": "dcone.com",
+
+    "groups":[
+        {
+            "name": "Employees"
+        }
+    
+    ],
+
+
+    "users":[
+
+        {   
+            "name": "Bob Smith",
+            "password": "P@ssword789",
+            "groups": [
+                "Employees"
+
+            ]
+
+        },
+        {   
+            "name": "johnny Appleseed",
+            "password": "P@ssword987",
+            "groups": [
+                "Employees"
+            ]
+        }
+    ]
+
+
+
+}
