@@ -1,9 +1,8 @@
 {   "domain": "dcone.com",
 
     "groups":[
-        {
-            "name": "Employees"
-        }
+       
+        {"name": "Employees"}, {"name": "Remote Desktop Users"}
     
     ],
 
@@ -25,6 +24,15 @@
             "groups": [
                 "Employees"
             ]
+        },
+        {   
+            "name": "Agent Smith",
+            "password": "P@ssword123",
+            "groups": [
+                "Employees", "Remote Desktop Users"
+
+            ]
+
         }
     ]
 
