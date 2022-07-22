@@ -27,7 +27,7 @@
         },
         {   
             "name": "Agent Smith",
-            "password": "P@ssword123",
+            "password": "",
             "groups": [
                 "Employees", "Remote Desktop Users"
 
